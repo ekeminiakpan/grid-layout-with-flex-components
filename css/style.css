@@ -1,0 +1,19 @@
+.emojis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem
+    }
+    
+    .icon{
+    order: -1;text-align: center;
+    }
+    
+    .emoji{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    .emoji a {
+    margin-top: auto
+    }
